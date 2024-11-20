@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Finders Keepers Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Left Panel -->
+        <div class="left-panel">
+            <div class="logo">Company Logo</div>
+            <div class="buttons">
+                <button>Dashboard</button>
+                <button>Users</button>
+                <button>Earnings</button>
+                <button>Third Party Services</button>
+                <button>Email Broadcast</button>
+                <button>Reports</button>
+            </div>
+        </div>
+
+
+        <div class="main-content">
+            <div class="top-bar">
+                <!-- Search Field -->
+                <div class="search-container">
+                    <input type="text" placeholder="Search Customer ID" />
+                    <button><i class="fa fa-search"></i></button>
+                </div>
+    
+    
+                <!-- Admin Profile -->
+                <div class="admin-profile">
+                    <div class="profile-pic">
+                        <img src="./_ copy 7.jpeg" alt="Admin" />
+                    </div>
+                    <div class="admin-name">John Doe</div>
+                </div>
+            </div>
+
+             <div class="boxes-container">
+            <div class="box">
+                <div class="box-header">
+                    <i class="fa fa-user"></i>
+                    <h1 id="user1-name">Total Users</h1>
+                </div>
+                <h2 id="user1-role">152,000</h2>
+                <h4 id="user1-id">+9.24 Previous month</h4>
+            </div>
+    
+            <div class="box">
+                <div class="box-header">
+                    <i class="fa fa-user"></i>
+                    <h1 id="user2-name">Active Subscriptions</h1>
+                </div>
+                <h2 id="user2-role">105,000</h2>
+                <h4 id="user2-id">+9.24 Previous month</h4>
+            </div>
+    
+            <div class="box">
+                <div class="box-header">
+                    <i class="fa fa-user"></i>
+                    <h1 id="user3-name">Inactive Users</h1>
+                </div>
+                <h2 id="user3-role">40,300</h2>
+                <h4 id="user3-id">-3.24 Previous month</h4>
+            </div>
+    
+            <div class="box">
+                <div class="box-header">
+                    <i class="fa fa-user"></i>
+                    <h1 id="user4-name">Active Trial Users</h1>
+                </div>
+                <h2 id="user4-role">23,000</h2>
+                <h4 id="user4-id">+9.24 Previous month</h4>
+            </div>
+        </div>
+
+        <div class="boxes-container">
+            <!-- First Box: Customer Demographic -->
+            <div class="big-box">
+                <div class="box-header">
+                    <h1>Customer Demographic</h1>
+                    <div class="switches">
+                        <label>
+                            <input type="checkbox">
+                            <span>Switch 1</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>Switch 2</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>Switch 3</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="map">
+                    <img src="usa-map.jpg" alt="USA Map" />
+                </div>
+            </div>
+    
+            <!-- Second Box (You can add other content here) -->
+            <div class="big-box2">
+                <div class="box-header">
+                    <h1>Users Info</h1>
+                    <div class="switches">
+                        <label>
+                            <input type="checkbox" id="allSwitch">
+                            <span>All</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="manSwitch">
+                            <span>Man</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="womanSwitch">
+                            <span>Woman</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="user-info">
+                    <div class="user">
+                        <h2>Apple Sent</h2>
+                        <h4 id="age">0</h4> <!-- This will be updated dynamically -->
+                    </div>
+                    <div class="user">
+                        <h2>Screen Time</h2>
+                        <h4 id="location">Not Available</h4> <!-- This will be updated dynamically -->
+                    </div>
+                    <div class="user">
+                        <h2>Accepted Apples</h2>
+                        <h4 id="lastLogin">Never</h4> <!-- This will be updated dynamically -->
+                    </div>
+                    <div class="user">
+                        <h2>Daily Apples Sent</h2>
+                        <h4 id="subscription">Inactive</h4> <!-- This will be updated dynamically -->
+                    </div>
+                    <div class="user">
+                        <h2>Time Spent Before Subscription</h2>
+                        <h4 id="activity">No Activity</h4> <!-- This will be updated dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
